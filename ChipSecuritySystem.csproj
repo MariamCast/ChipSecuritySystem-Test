@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chips.cs" />
     <Compile Include="Color.cs" />
     <Compile Include="ColorChip.cs" />
     <Compile Include="Constants.cs" />
@@ -53,5 +54,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
